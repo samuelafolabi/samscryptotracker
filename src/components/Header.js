@@ -43,8 +43,6 @@ export default function Header() {
             </option>
           </Select>
         </Stack>
-
-        {/* Selecting currency */}
       </VStack>
     </div>
   );

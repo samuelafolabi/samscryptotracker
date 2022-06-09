@@ -17,27 +17,16 @@ import {
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
-  TableCaption,
   StatArrow,
   TableContainer,
 } from "@chakra-ui/react";
 
-import {
-  Previous,
-  Paginator,
-  PageGroup,
-  Page,
-  Next,
-  generatePages,
-} from "chakra-paginator";
 import { CoinState } from "../CoinContext";
 import axios from "axios";
 import { CoinList } from "../config/api";
-import { red } from "@mui/material/colors";
 
 export default function Coinstable() {
   const [coins, setCoins] = useState([]);
